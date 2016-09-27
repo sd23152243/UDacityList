@@ -7,5 +7,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="btnStyle" parent="@android:style/TextAppearance.DeviceDefault.WindowTitle"><!-- @android:style/TextAppearance.WindowTitle -->
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.WindowTitle</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:layout_weight">0.04</item>
+    </style>
 </resources>

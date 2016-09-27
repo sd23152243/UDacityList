@@ -25,80 +25,33 @@
 
     <Button
         android:text="@string/btn_Movie"
-        android:layout_marginTop="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_Movie"
-        android:textSize="26sp"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.WindowTitle"
-        style="@android:style/Widget.Button"
-        android:onClick="onButtonClick"
-        android:layout_weight="0.02" />
+        style="@style/btnStyle" />
 
     <Button
         android:text="@string/btn_Hawk"
-        android:layout_marginTop="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_Hawk"
-        android:textSize="26sp"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.WindowTitle"
-        style="@android:style/Widget.Button"
-        android:onClick="onButtonClick"
-        android:layout_weight="0.03" />
+        style="@style/btnStyle" />
 
     <Button
         android:text="@string/btn_Build"
-        android:layout_marginTop="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_Build"
-        android:textSize="26sp"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.WindowTitle"
-        style="@android:style/Widget.Button"
-        android:onClick="onButtonClick"
-        android:layout_weight="0.03" />
+        style="@style/btnStyle"/>
 
     <Button
         android:text="MAKE YOUR APP METRIAL"
-        android:layout_marginTop="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_Metrial"
-        android:textSize="26sp"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.WindowTitle"
-        style="@android:style/Widget.Button"
-        android:onClick="onButtonClick"
-        android:layout_weight="0.03" />
+        style="@style/btnStyle" />
 
     <Button
         android:text="@string/btn_Ubiquitous"
-        android:layout_marginTop="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_Ubiquitous"
-        android:textSize="26sp"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.WindowTitle"
-        style="@android:style/Widget.Button"
-        android:onClick="onButtonClick"
-        android:layout_weight="0.03" />
+        style="@style/btnStyle"/>
 
     <Button
         android:text="@string/btn_Cap"
-        android:layout_marginTop="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_Cap"
-        android:textSize="26sp"
-        android:layout_gravity="center_horizontal"
-        android:textAppearance="@android:style/TextAppearance.WindowTitle"
-        style="@android:style/Widget.Button"
-        android:onClick="onButtonClick"
-        android:layout_weight="0.04" />
+        style="@style/btnStyle"
+        />
 
 </LinearLayout>
