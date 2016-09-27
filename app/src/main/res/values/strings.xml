@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UDacityList</string>
+    <string name="btn_Movie">POPULAR MOVIES</string>
+    <string name="btn_Hawk">STOCK HAWK</string>
+    <string name="tv_title">My Nanodegree Apps!</string>
+    <string name="btn_Build">BUILD IT BIGGER</string>
+    <string name="btn_Metrial">MAKE YOUR APP METRIAL</string>
+    <string name="btn_Ubiquitous">GO UBIQUITOUS</string>
+    <string name="btn_Cap">CAP STONE</string>
 </resources>

@@ -14,52 +14,52 @@
 
 
     <TextView
-        android:text="My Nanodegree Apps!"
+        android:text="@string/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:id="@+id/tv_title"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
         android:layout_weight="0.04"
         android:textAlignment="center"
         android:textSize="30sp" />
 
     <Button
-        android:text="POPULAR MOVIES"
+        android:text="@string/btn_Movie"
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/btn_Movie"
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.WindowTitle"
         style="@android:style/Widget.Button"
+        android:onClick="onButtonClick"
         android:layout_weight="0.02" />
 
     <Button
-        android:text="STOCK HAWK"
+        android:text="@string/btn_Hawk"
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button6"
+        android:id="@+id/btn_Hawk"
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.WindowTitle"
         style="@android:style/Widget.Button"
+        android:onClick="onButtonClick"
         android:layout_weight="0.03" />
 
     <Button
-        android:text="BUILD IT BIGGER"
+        android:text="@string/btn_Build"
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button5"
+        android:id="@+id/btn_Build"
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.WindowTitle"
         style="@android:style/Widget.Button"
+        android:onClick="onButtonClick"
         android:layout_weight="0.03" />
 
     <Button
@@ -67,35 +67,38 @@
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
+        android:id="@+id/btn_Metrial"
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.WindowTitle"
         style="@android:style/Widget.Button"
+        android:onClick="onButtonClick"
         android:layout_weight="0.03" />
 
     <Button
-        android:text="GO UBIQUITOUS"
+        android:text="@string/btn_Ubiquitous"
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
+        android:id="@+id/btn_Ubiquitous"
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.WindowTitle"
         style="@android:style/Widget.Button"
+        android:onClick="onButtonClick"
         android:layout_weight="0.03" />
 
     <Button
-        android:text="CAP STONE"
+        android:text="@string/btn_Cap"
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button7"
+        android:id="@+id/btn_Cap"
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAppearance="@android:style/TextAppearance.WindowTitle"
         style="@android:style/Widget.Button"
+        android:onClick="onButtonClick"
         android:layout_weight="0.04" />
 
 </LinearLayout>
